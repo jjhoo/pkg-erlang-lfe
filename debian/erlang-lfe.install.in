@@ -1,0 +1,5 @@
+usr/lib/erlang/lib/lfe-0.9.2/ebin
+usr/lib/erlang/lib/lfe-0.9.2/priv
+bin/lfe usr/bin
+bin/lfec usr/bin
+bin/lfescript usr/bin
