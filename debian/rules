@@ -11,7 +11,7 @@ DPKG_EXPORT_BUILDFLAGS = 1
 include /usr/share/dpkg/default.mk
 
 get-orig-source:
-	uscan --repack --compression xz --force-download
+	uscan --repack --compression xz --force-download --download-current-version
 
 %:
 	dh $@ --buildsystem=rebar --with rebar
